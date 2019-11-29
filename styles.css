@@ -85,8 +85,8 @@ select {
  * ACTUAL STYLES *
  *****************/
 body {
+  background-image: url("./cow.jpg");
   font-family: sans-serif;
-  background: black;
   color: white;
   font-size: calc(1rem + 1vw);
   overflow: hidden;
@@ -103,6 +103,7 @@ h1 {
   font-size: calc(100vh / 2);
   text-transform: uppercase;
   word-break: break-word;
+  text-shadow: 10px 10px 0px #4b1f1e;
 }
 section {
   display: flex;
@@ -115,12 +116,15 @@ a {
   display: block;
   margin: 2.8rem;
   padding: 1.4rem 2rem;
+  text-shadow: 2px 2px 0px black;
 }
 a.first:hover,
 a.first:focus {
   background: fuchsia;
+  text-shadow: none;
 }
 a.second:hover,
 a.second:focus {
   background: lime;
+  text-shadow: none;
 }
