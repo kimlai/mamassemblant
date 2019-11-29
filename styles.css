@@ -89,7 +89,6 @@ body {
   font-family: sans-serif;
   color: white;
   font-size: calc(1rem + 1vw);
-  overflow: hidden;
 }
 main {
   min-height: 100vh;
@@ -99,6 +98,7 @@ main {
 }
 h1 {
   transform: rotate(-2deg);
+  margin: 0.5rem;
   line-height: 0.8;
   font-size: calc(100vh / 2);
   text-transform: uppercase;
