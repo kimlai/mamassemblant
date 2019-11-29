@@ -107,6 +107,7 @@ h1 {
 }
 section {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
 }
 a {
@@ -114,9 +115,9 @@ a {
   color: white;
   border: solid 3px white;
   display: block;
-  margin: 2.8rem;
+  margin: 1.4rem 2.8rem;
   padding: 1.4rem 2rem;
-  text-shadow: 2px 2px 0px black;
+  text-shadow: 2px 2px 0px #4b1f1e;
 }
 a.first:hover,
 a.first:focus {
